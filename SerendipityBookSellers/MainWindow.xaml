@@ -1,0 +1,196 @@
+﻿<!-- Group 1 - (James Odeyale, Vanin Ferrall, Ashokchakravarthi Nagarajan) -->
+    
+<Window x:Class="SerendipityBookSellers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SerendipityBookSellers"
+        mc:Ignorable="d"
+        Title="Serendipity Book Club" Height="450" Width="800"
+        Background="#C0D7BB" 
+        >
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Border 
+            Grid.Row="1"
+            Grid.Column="1"
+            Grid.ColumnSpan="2"
+            CornerRadius="10"
+            Padding="85 3 85 10"
+            VerticalAlignment="Top"
+            Background="#2F4B26" 
+        >
+            <StackPanel>
+                <Label
+                    Content="Enter the number of books you have purchased"
+                    FontSize="18"
+                    HorizontalAlignment="Center"
+                    Foreground="white"
+                >
+                </Label>
+
+                <TextBox
+                    Name="txtEnteredPoints"
+                    FontSize="40"
+                    HorizontalContentAlignment="Right"
+                    Width="550"
+                    BorderBrush="#2F4B26"
+                    Background="#2F4B26"
+                    Foreground="white"
+                    Focusable="True"
+                    BorderThickness="0"
+                >
+                </TextBox>
+            </StackPanel>
+        </Border>
+
+        <TextBlock Name="tbErrorDisplay"
+                   Grid.Column="1"
+                   Grid.Row="1"
+                   Grid.ColumnSpan="2"
+                   VerticalAlignment="Bottom"
+                   Background="#BF3722"
+                   Foreground="White"
+                   Margin="0 50 0 0"
+                   FontSize="18"
+                   Padding="5"
+                   TextWrapping="Wrap"
+                   TextAlignment="Center"
+        />
+
+
+        <StackPanel
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.Column="1"
+            Margin="35"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"   
+            Name="spDisplayResult"
+        >
+            <Label
+                Content="You have earned"
+                FontSize="23"   
+                Foreground="#2F4B26" 
+                FontWeight="Bold"
+            >
+            </Label>
+
+            <TextBlock
+                Name="tbPointsEarned"
+                FontSize="60"
+                HorizontalAlignment="Center"
+                Foreground="#2F4B26" 
+                FontWeight="Bold"
+            >
+            </TextBlock>
+
+            <Label
+                Content="points"
+                FontSize="23"
+                HorizontalAlignment="Center"
+                Foreground="#2F4B26" 
+                FontWeight="Bold"
+            >
+            </Label>
+            
+        </StackPanel>
+
+       
+        <StackPanel 
+            Grid.Row="2"
+            Grid.Column="2"
+            Grid.RowSpan="2"
+            VerticalAlignment="Center"
+        >
+             <Button 
+                Foreground="White"
+                FontWeight="Medium"
+                Grid.Column="1"
+                Grid.Row="1"
+                Name="reset_button" 
+                Content="Reset"
+                Width="200"
+                Height="70"
+                Margin="20"
+                FontSize="23"
+                Click="Reset_Button_Click"
+             >
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#E26D5A"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#D03C25" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Height="70" Width="200" CornerRadius="7" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <Button 
+                Foreground="White"
+                FontWeight="Medium"
+                Grid.Column="1"
+                Grid.Row="1"
+                Name="calculatePoints" 
+                Content="Calculate Points"
+                Width="200"
+                Height="70"
+                Margin="20"
+                FontSize="23"
+                Click="CalculatePoints_Click"
+             >
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#061826"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#3685B5" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Height="70" Width="200" CornerRadius="7" 
+                            Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

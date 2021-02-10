@@ -1,0 +1,15 @@
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\bin\Debug\SerendipityBookSellers.exe.config
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\bin\Debug\SerendipityBookSellers.exe
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\bin\Debug\SerendipityBookSellers.pdb
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\SerendipityBookSellers.csprojAssemblyReference.cache
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\MainWindow.g.cs
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\App.g.cs
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\SerendipityBookSellers_MarkupCompile.cache
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\SerendipityBookSellers_MarkupCompile.lref
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\MainWindow.baml
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\SerendipityBookSellers.g.resources
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\SerendipityBookSellers.Properties.Resources.resources
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\SerendipityBookSellers.csproj.GenerateResource.cache
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\SerendipityBookSellers.csproj.CoreCompileInputs.cache
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\SerendipityBookSellers.exe
+C:\Users\james\OneDrive\Documents\SCHOOL WORK\PROG8010 - SOFTWARE DEVELOPMENT\CODE\Assignments\SerendipityBookSellers\SerendipityBookSellers\obj\Debug\SerendipityBookSellers.pdb
