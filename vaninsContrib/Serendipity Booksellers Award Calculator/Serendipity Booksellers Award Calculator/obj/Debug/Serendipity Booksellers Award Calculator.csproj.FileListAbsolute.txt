@@ -1,0 +1,15 @@
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\Serendipity Booksellers Award Calculator.csprojAssemblyReference.cache
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\App.g.cs
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\Serendipity Booksellers Award Calculator_MarkupCompile.cache
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\bin\Debug\Serendipity Booksellers Award Calculator.exe.config
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\bin\Debug\Serendipity Booksellers Award Calculator.exe
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\bin\Debug\Serendipity Booksellers Award Calculator.pdb
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\Serendipity Booksellers Award Calculator_MarkupCompile.lref
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\MainWindow.baml
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\Serendipity Booksellers Award Calculator.g.resources
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\Serendipity_Booksellers_Award_Calculator.Properties.Resources.resources
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\Serendipity Booksellers Award Calculator.csproj.GenerateResource.cache
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\Serendipity Booksellers Award Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\Serendipity Booksellers Award Calculator.exe
+C:\Users\Vanin\source\repos\Serendipity Booksellers Award Calculator\Serendipity Booksellers Award Calculator\obj\Debug\Serendipity Booksellers Award Calculator.pdb

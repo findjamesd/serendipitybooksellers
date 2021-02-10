@@ -1,0 +1,87 @@
+﻿<!--Vanin Ferrall - Group 1-->
+<Window x:Class="Serendipity_Booksellers_Award_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Serendipity_Booksellers_Award_Calculator"
+        mc:Ignorable="d"
+        Title="Serendipity Booksellers Award Calculator" Height="450" Width="800" MinWidth="800" MinHeight="450">
+    <Window.Resources>
+        <Style x:Key="Output" 
+               TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style x:Key="InputHeader" 
+               TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style x:Key="DropDown" 
+               TargetType="ComboBox">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="SelectedIndex" Value="0"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Width" Value="200"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition MinHeight="45"/>
+            <RowDefinition MinHeight="45"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="2*" MinHeight="75"/>
+        </Grid.RowDefinitions>
+        <TextBlock 
+            Text="Number of Books Purchased"
+            Style="{StaticResource InputHeader}"
+            Grid.Column="0" 
+            Grid.Row="0"/>
+        <TextBlock 
+            Text="Month Books Were Purchased"
+            Style="{StaticResource InputHeader}"
+            Grid.Column="1" 
+            Grid.Row="0"/>
+        <TextBlock
+            x:Name="Total"
+            Text="You've earned 0 points so far this year"
+            Style="{StaticResource Output}"
+            FontSize="20"
+            Grid.Column="1"
+            Grid.Row="4"/>
+        <TextBlock
+            Name="CurrentMonthlyPoints"
+            Text="You currently have 0 points this month."
+            Style="{StaticResource Output}"
+            FontSize="40"
+            Grid.ColumnSpan="2"
+            Grid.Row="2"/>
+        <ComboBox 
+            Name="BookInput"
+            Style="{StaticResource DropDown}"
+            Grid.Column="0"
+            Grid.Row="1"/>
+        <ComboBox 
+            Name="MonthInput"
+            Style="{StaticResource DropDown}"
+            Grid.Column="1"
+            Grid.Row="1"
+            SelectionChanged="MonthInput_SelectionChanged"/>
+        <Button
+            Name="Submit"
+            Content="Record Points"
+            FontSize="30"
+            Grid.Column="0"
+            Grid.Row="4"
+            Margin="10"
+            Click="Submit_Click"/>
+    </Grid>
+</Window>
